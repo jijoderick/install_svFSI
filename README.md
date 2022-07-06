@@ -1,2 +1,2 @@
 # install_svFSI
-This file contain the instructions to install the svFSI
+Go through the instructions file
