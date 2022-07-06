@@ -80,7 +80,3 @@ or in parallel (for eg. with 8 procs)
 [code]mpirun -np 8 ./svFSI svFSI.inp[/code]
 In case in the test case, if the preconditioner is Trillinos, you can replace it to FSILS in the .inp file and proceed the run.
 ------------------------------------------------------------------------------------------------------
-Most of the things are available in the different parts of simvascular and svFSI websites. I have attempted to consolidate things in an orderly manner here.
-Also, some of the things are very basic Linux commands, However, I hope this will be useful for someone who is very new to svFSI.
-Thanks to Dave, for the responses during my earlier attempts.
-Cheers
