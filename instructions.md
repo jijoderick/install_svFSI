@@ -3,8 +3,8 @@ I was successful in installing the svFSI using source code.
 For beginners who want to install the [b]svFSI without Trillnos in ubuntu 18.04 or 20.04[/b], I am hereby posting the things that worked for me.
 1.First, build the prerequisites just with apt[/b] [/u]
 [list=]install git, if you don't have done it previously[/list]
-[code]sudo apt install git
-[/code]
+sudo apt install git
+
 [list]Install gcc, gfortran, lapack, liblas and open mpi[/list]
 [code]sudo apt install gcc
 sudo apt install gfortran
