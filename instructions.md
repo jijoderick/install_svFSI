@@ -1,7 +1,7 @@
 I was successful in installing the svFSI using source code.
 
 For beginners who want to install the svFSI without Trillnos in ubuntu 18.04 or 20.04, I am hereby posting the things that worked for me.
-# First, build the prerequisites just with apt
+**First, build the prerequisites just with apt**
 install git, if you don't have done it previously
 ```
 sudo apt install git
@@ -15,12 +15,12 @@ sudo apt install libblas-dev
 sudo apt install libopenmpi-dev
 sudo apt install openmpi-bin
 ```
-Install cmake (for ubuntu 20.04)
+**Install cmake (for ubuntu 20.04)**
 ```
 sudo apt install cmake
 sudo apt install cmake-curses-gui
 ```
-cmake (for ubuntu 18.04)[/b]
+**cmake (for ubuntu 18.04)**
 [b] Note that,[/b] svFSI demands cmake version 3.12 or latest. However, in [b]ubuntu 18.04 [/b] the default version of the cmake is 3.10, which is not sufficient to build svFSI. I suggest first check the default version of cmake if you have previously installed cmake for any other purpose. 
 ```
 cmake --version
@@ -96,5 +96,5 @@ Now you can run case the in series as
 or in parallel (for eg. with 8 procs)
 ```mpirun -np 8 ./svFSI svFSI.inp
 ```
-**In case in the test case, if the preconditioner is Trillinos, you can replace it to FSILS in the .inp file and proceed the run.**
+In case in the test case, if the preconditioner is Trillinos, you can replace it to FSILS in the .inp file and proceed the run.
 ------------------------------------------------------------------------------------------------------
